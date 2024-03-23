@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background:#06283D;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-repeat: no-repeat;
+    background-position:center;
+    font-size: 1.5rem;
+}
+
+.container {
+    
+    background: 	#fff;
+    opacity: .6;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 30px;
+    height: 350px;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+button{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: 	#b7c9ff;
+    margin-left: .25rem;
+    cursor: pointer;
+    font-size: 1.25rem;
+    
+}
+
+button:hover{
+    background:#c9a8ff;
+}
+
+input.search-bar{
+   
+    border: none;
+    padding: .5rem;
+    border-radius: 25px;
+    background: 	#b7c9ff;
+    outline: none;
+    font-size: 1.5rem;
+    width: 100%;
+    font-weight: 700px;
+}
+.temperature{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.description{
+    display: flex;
+    
+}
+
+.description p {
+    text-transform: capitalize;
+    padding-top: .5rem;
+}
+
+.other-information {
+    display: flex;
+    justify-content: space-between;
+}
+
