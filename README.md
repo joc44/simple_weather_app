@@ -1,16 +1,16 @@
 # simple_weather_app
-This is the simple weather app with search bar for location. 
-The background is adapted to location.
+#This is the simple weather app with search bar for location. 
+#The background is adapted to location.
 
-Technologies:
+#Technologies:
   -HTML5
   -CSS
   -JavaScript
 
 
-API:
+#API:
   https://api.openweathermap.org
-Background:
+#Background:
   https://source.unsplash.com/1600x900
 
 
