@@ -9,7 +9,9 @@ Technologies:
 
 
 API:
-  -https://openweathermap.org
+  https://api.openweathermap.org
+Background:
+  https://source.unsplash.com/1600x900
 
 
 
